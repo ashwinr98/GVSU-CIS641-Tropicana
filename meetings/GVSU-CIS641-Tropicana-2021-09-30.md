@@ -2,7 +2,7 @@
 
 Team name: Tropicana
 
-Members present: Ashwin Rajasankar
+Members present: Ashwin
 
 Date: 30/09/2021
 
