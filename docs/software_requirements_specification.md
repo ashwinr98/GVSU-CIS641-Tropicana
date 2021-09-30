@@ -1,7 +1,7 @@
-#Overview:
+# Overview:
 The objective of the document is to provide the list of requirements for assisting in the development process of the application at each stage. The list will keep changing at each step of the development process depending upon the possible improvements and constraints.
 
-#Functional Requirements:
+# Functional Requirements:
 
 1. Frontend:
   1. The application shall allow users to upload images.
@@ -15,7 +15,7 @@ The objective of the document is to provide the list of requirements for assisti
   2. The application shall return the results of the image search within 10 seconds or an error message is shown.
   3. The application shall be built using REST APIs.
 
-#Non Functional Requirements:
+# Non Functional Requirements:
 
 1. Classifier:
   1. The classifier shall be able to predict images accurately.
