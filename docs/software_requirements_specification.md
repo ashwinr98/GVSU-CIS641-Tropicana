@@ -5,7 +5,7 @@ The objective of the document is to provide the list of requirements for assisti
 
 1. Frontend:
     1. The application shall allow users to upload images.
-    2. The application shall send a error message to the user when the image is not in the following formats (jpg, jpeg, png, bmp)
+    2. The application shall send a error message to the user when the image is not in the following formats (jpg, jpeg, png, bmp).
     3. The application shall send a error message to the user if the uploaded image is over 10 MB.
 2. Image Classifier:
     1. The classifier shall return the name of the insect and other related information in JSON.
