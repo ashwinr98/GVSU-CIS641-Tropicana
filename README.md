@@ -11,7 +11,7 @@ An application to identify insects and pests. The application takes the input of
 ## [Documents](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/tree/master/docs)
 
 * [Project proposal](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/docs/proposal-template.md)
-* Software requirements specifications
+* [Software requirements specifications](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/docs/software_requirements_specification.md)
 
 ## Prerequisites
 
