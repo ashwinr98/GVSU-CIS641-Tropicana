@@ -8,9 +8,9 @@ Time: 7:00
 
 Discussion points:
 
-Django backend progress and improvements
+    Django backend progress and improvements
 
 Goals for next week:
 
-Create React frontend.
-Improve Django backend.
+    Create React frontend.
+    Improve Django backend.
