@@ -23,10 +23,30 @@ The objective of the document is to provide the list of requirements for assisti
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR6 | The image classifier shall be able to classify different insects. |
-| FR7 | The image classifier shall be able to receive the image from the backend. |
+| FR7 | The image classifier shall be able to receive the image from Django. |
 | FR8 | The image classifier shall be send the classification results back to the user. |
 | FR9 | The image classifier shall be created using Tensorflow. |
 | FR10 | The image classifier shall be accurate in predicting insects. |
 
-### Image Classifier
-| FR5 | ... | ... |
+### Django Backend
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR5 | The backend shall be able to integrate with the React frontend. |
+| FR5 | The backend shall be able to retreive results from the image classifier. |
+| FR5 | The backend shall be built using REST APIs. |
+| FR5 | The backend shall be able to connect and update the database. |
+| FR5 | The backend shall be able to  |
+| FR5 |  |
+
+### Admin Interface
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR5 | The admin shall be able to login to the admin interface. |
+| FR5 | Other users shall be unable to login to the admin interface. |
+| FR5 | The admin shall be able to view image search data of users from the admin interface. |
+| FR5 | The admin shall be able to modify and delete image search data of users from the admin interface. |
+| FR5 | The admin shall have an option to change the password of the login. |
+
+### Database
+| ID | Requirement |
+| :-------------: | :----------: |
