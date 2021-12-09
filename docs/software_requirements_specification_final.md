@@ -31,11 +31,11 @@ The objective of the document is to provide the list of requirements for assisti
 ### Django Backend
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR5 | The backend shall be able to integrate with the React frontend. |
+| FR5 | The backend shall be able to integrate seamlessly with the frontend. |
 | FR5 | The backend shall be able to retreive results from the image classifier. |
 | FR5 | The backend shall be built using REST APIs. |
 | FR5 | The backend shall be able to connect and update the database. |
-| FR5 | The backend shall be able to  |
+| FR5 | The backend shall be function efficiently without crashing |
 | FR5 |  |
 
 ### Admin Interface
@@ -50,3 +50,12 @@ The objective of the document is to provide the list of requirements for assisti
 ### Database
 | ID | Requirement |
 | :-------------: | :----------: |
+| FR5 | The database shall be able to store data of the image title and description. |
+| FR5 | The database shall be able to integrate with the backend. |
+| FR5 | The database shall allow only the admin to view and modify the data. |
+| FR5 | The database shall allow the admin to delete the data. |
+| FR5 | The database shall be fast in retreiving queries. |
+
+
+
+## Functional Requirements
