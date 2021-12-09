@@ -7,3 +7,13 @@ The objective of the document is to provide the list of requirements for assisti
 * [Change Management Plan](#change-management-plan)
 * [Traceability Links](#traceability-links)
 * [Software Artifacts](#software-artifacts)
+
+## Functional Requirements
+
+### Frontend
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR1 | The frontend shall allow users to upload images.|
+| FR2 | The frontend shall allow users to set a title and content (description) to the image.|
+| FR3 | The frontend shall show the prediction result of the image to the user.|
+| ... | ... | ... |
