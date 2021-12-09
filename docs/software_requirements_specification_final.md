@@ -15,5 +15,18 @@ The objective of the document is to provide the list of requirements for assisti
 | :-------------: | :----------: |
 | FR1 | The frontend shall allow users to upload images. |
 | FR2 | The frontend shall allow users to set a title and content (description) to the image. |
-| FR3 | The frontend shall show the prediction result of the image to the user. |
-| ... | ... | ... |
+| FR3 | The frontend shall show the prediction result of the image to the user along with its accuracy. |
+| FR4 | The frontend shall have a browse button for the user to select an image from the local system. |
+| FR5 | The frontend shall only allow images to be uploaded. |
+
+### Image Classifier
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR6 | The image classifier shall be able to classify different insects. |
+| FR7 | The image classifier shall be able to receive the image from the backend. |
+| FR8 | The image classifier shall be send the classification results back to the user. |
+| FR9 | The image classifier shall be created using Tensorflow. |
+| FR10 | The image classifier shall be accurate in predicting insects. |
+
+### Image Classifier
+| FR5 | ... | ... |
