@@ -24,8 +24,8 @@ The objective of the document is to provide the list of requirements for assisti
 | :-------------: | :----------: |
 | FR6 | The image classifier shall be able to classify different insects. |
 | FR7 | The image classifier shall be able to receive the image from Django. |
-| FR8 | The image classifier shall be send the classification results back to the user. |
-| FR9 | The image classifier shall be created integrate with the backend. |
+| FR8 | The image classifier shall be able to send the classification results back to the user. |
+| FR9 | The image classifier shall be able to integrate with the backend. |
 | FR10 | The image classifier shall be accurate in predicting insects. |
 
 ### Backend
@@ -33,14 +33,14 @@ The objective of the document is to provide the list of requirements for assisti
 | :-------------: | :----------: |
 | FR11 | The backend shall be able to integrate seamlessly with the frontend. |
 | FR12 | The backend shall be able to retreive results from the image classifier. |
-| FR13 | The backend shall have APIs.for admin user, showing image data and predicting images. |
+| FR13 | The backend shall have APIs for admin dashboard, showing image data and predicting images. |
 | FR14 | The backend shall be able to connect and update the database. |
-| FR15 | The backend shall be function efficiently without crashing. |
+| FR15 | The backend shall function efficiently without crashing. |
 
 ### Admin Interface
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR16 | The admin shall be able to login to the admin interface. |
+| FR16 | The admin shall be able to login to the admin interface using their credentials. |
 | FR17 | Other users shall not be able to login to the admin interface. |
 | FR18 | The admin shall be able to view image search data of users from the admin interface. |
 | FR19 | The admin shall be able to modify and delete image search data of users from the admin interface. |
