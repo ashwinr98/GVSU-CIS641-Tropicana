@@ -79,17 +79,29 @@ The objective of the document is to provide the list of requirements for assisti
 ### Design Requirements
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR1 | The backend of the application shall be designed using Django. |
-| NFR1 | The frontend of the application shall be designed using React. |
-| NFR1 | SQLite shall be used as the database for the application. |
-| NFR1 | Tensorflow shall be used to create the image classifier. |
-| NFR1 | REST APIs shall be used in the application for data communication between the frontend and backend. |
-### Security Requirements
-| ID | Requirement |
-| :-------------: | :----------: |
+| NFR11 | The backend of the application shall be designed using Django. |
+| NFR12 | The frontend of the application shall be designed using React. |
+| NFR13 | SQLite shall be used as the database for the application. |
+| NFR14 | Tensorflow shall be used to create the image classifier. |
+| NFR15 | REST APIs shall be used in the application for data communication between the frontend and backend. |
 
 ### Security Requirements
 | ID | Requirement |
 | :-------------: | :----------: |
+| NFR16 | Only the admin shall be able to access the admin interface. |
+| NFR17 | Only the admin shall be able to view the database. |
+| NFR18 | Only the admin shall be able to delete data from the database. |
+| NFR19 | The admin password shall be held confidential. |
+| NFR20 | The application shall make sure to prevent any external breach in the data. |
 
-#Change Management Plan
+### Reliability Requirements
+| ID | Requirement |
+| :-------------: | :----------: |
+| NFR1 | The application shall be able to handle multiple concurrent requests at a time. |
+| NFR1 | The application shall have less downtime. |
+| NFR1 | The application shall be updated to a new version once every three months. |
+| NFR1 | The application shall be tested for bugs and debugged frequently. |
+| NFR1 | The application shall have user feedback portal, where the users recommend new features and bug fixes. |
+
+
+##Change Management Plan
