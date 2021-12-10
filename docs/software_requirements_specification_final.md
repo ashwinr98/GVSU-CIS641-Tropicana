@@ -76,12 +76,6 @@ The objective of the document is to provide the list of requirements for assisti
 | NFR9 | The React frontend shall start within 3 minutes of starting it. |
 | NFR10 | The image classifier shall be able to predict insects correctly. |
 
-
-### Security Requirements
-| ID | Requirement |
-| :-------------: | :----------: |
-
-
 ### Design Requirements
 | ID | Requirement |
 | :-------------: | :----------: |
@@ -90,10 +84,12 @@ The objective of the document is to provide the list of requirements for assisti
 | NFR1 | SQLite shall be used as the database for the application. |
 | NFR1 | Tensorflow shall be used to create the image classifier. |
 | NFR1 | REST APIs shall be used in the application for data communication between the frontend and backend. |
-
+### Security Requirements
+| ID | Requirement |
+| :-------------: | :----------: |
 
 ### Security Requirements
 | ID | Requirement |
 | :-------------: | :----------: |
 
-#Non-Functional Requirements
+#Change Management Plan
