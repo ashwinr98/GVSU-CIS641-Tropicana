@@ -25,37 +25,75 @@ The objective of the document is to provide the list of requirements for assisti
 | FR6 | The image classifier shall be able to classify different insects. |
 | FR7 | The image classifier shall be able to receive the image from Django. |
 | FR8 | The image classifier shall be send the classification results back to the user. |
-| FR9 | The image classifier shall be created using Tensorflow. |
+| FR9 | The image classifier shall be created integrate with the backend. |
 | FR10 | The image classifier shall be accurate in predicting insects. |
 
-### Django Backend
+### Backend
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR5 | The backend shall be able to integrate seamlessly with the frontend. |
-| FR5 | The backend shall be able to retreive results from the image classifier. |
-| FR5 | The backend shall be built using REST APIs. |
-| FR5 | The backend shall be able to connect and update the database. |
-| FR5 | The backend shall be function efficiently without crashing |
-| FR5 |  |
+| FR11 | The backend shall be able to integrate seamlessly with the frontend. |
+| FR12 | The backend shall be able to retreive results from the image classifier. |
+| FR13 | The backend shall have APIs.for admin user, showing image data and predicting images. |
+| FR14 | The backend shall be able to connect and update the database. |
+| FR15 | The backend shall be function efficiently without crashing. |
 
 ### Admin Interface
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR5 | The admin shall be able to login to the admin interface. |
-| FR5 | Other users shall be unable to login to the admin interface. |
-| FR5 | The admin shall be able to view image search data of users from the admin interface. |
-| FR5 | The admin shall be able to modify and delete image search data of users from the admin interface. |
-| FR5 | The admin shall have an option to change the password of the login. |
+| FR16 | The admin shall be able to login to the admin interface. |
+| FR17 | Other users shall not be able to login to the admin interface. |
+| FR18 | The admin shall be able to view image search data of users from the admin interface. |
+| FR19 | The admin shall be able to modify and delete image search data of users from the admin interface. |
+| FR20 | The admin shall have an option to change the password of the login. |
 
 ### Database
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR5 | The database shall be able to store data of the image title and description. |
-| FR5 | The database shall be able to integrate with the backend. |
-| FR5 | The database shall allow only the admin to view and modify the data. |
-| FR5 | The database shall allow the admin to delete the data. |
-| FR5 | The database shall be fast in retreiving queries. |
+| FR21 | The database shall be able to store data of the image title and description. |
+| FR22 | The database shall be able to integrate with the backend. |
+| FR23 | The database shall allow only the admin to view and modify the data. |
+| FR24 | The database shall allow the admin to delete the data. |
+| FR25 | The database shall be fast in retreiving queries. |
 
 
+## Non-Functional Requirements
 
-## Functional Requirements
+### Operational Requirements
+| ID | Requirement |
+| :-------------: | :----------: |
+| NFR1 | The application shall be able to work on Firefox, Chrome and Edge. |
+| NFR2 | The application shall be able to run on Windows and Linux. |
+| NFR3 | The application shall not require internet to operate. |
+| NFR4 | The application shall be able to work smoothly without crashing. |
+| NFR5 | The application shall not consume too much resources of the system. |
+
+### Performance Requirements
+| ID | Requirement |
+| :-------------: | :----------: |
+| NFR6 | The image classifier shall be able to classify images within 3 seconds. |
+| NFR7 | The Django backend shall send the image to the image classifier within a second. |
+| NFR8 | The React frontend shall display the results within a second after receiving the prediction result from Django. |
+| NFR9 | The React frontend shall start within 3 minutes of starting it. |
+| NFR10 | The image classifier shall be able to predict insects correctly. |
+
+
+### Security Requirements
+| ID | Requirement |
+| :-------------: | :----------: |
+
+
+### Design Requirements
+| ID | Requirement |
+| :-------------: | :----------: |
+| NFR1 | The backend of the application shall be designed using Django. |
+| NFR1 | The frontend of the application shall be designed using React. |
+| NFR1 | SQLite shall be used as the database for the application. |
+| NFR1 | Tensorflow shall be used to create the image classifier. |
+| NFR1 | REST APIs shall be used in the application for data communication between the frontend and backend. |
+
+
+### Security Requirements
+| ID | Requirement |
+| :-------------: | :----------: |
+
+#Non-Functional Requirements
