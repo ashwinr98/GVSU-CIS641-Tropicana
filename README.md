@@ -12,7 +12,7 @@ An application to identify insects and pests. The application takes the input of
 * [Use Case 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_sendprediction.drawio.png)
 * [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio.png)
 * [Use Case 4](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_adminoperations.png)
-* [Class Diagram] (https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png)
+* [Class Diagram](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png)
 * [Activity Diagram 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_storingdata.drawio.png)
 * [Activity Diagram 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_checkimage.drawio.png)
 * [Windows Navigation Diagram](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/hci/Windowsnavigationdiagram.drawio.png)
