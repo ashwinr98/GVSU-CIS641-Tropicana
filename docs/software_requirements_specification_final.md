@@ -105,7 +105,6 @@ The objective of the document is to provide the list of requirements for assisti
 | NFR24 | The application shall be tested for bugs and debugged frequently. |
 | NFR25 | The application shall have a user feedback portal, where the users recommend new features and bug fixes. |
 
-
 #Change Management Plan
 
 A change management plan will be done for the implementation of the Insect Identification System. The plan will 
