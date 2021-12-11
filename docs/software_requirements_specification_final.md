@@ -3,6 +3,8 @@ The objective of the document is to provide the list of requirements for assisti
 
 # Software Requirements
 
+The section describes the features of the application. Functional requirements describe the basic features that the user should have access to. Nonfunctional requirements are requirements which describe the quality of the system.
+ 
 ## Functional Requirements
 
 ### Frontend
@@ -132,19 +134,19 @@ If the user has any immediate issues he can email the system administrator for h
 | :-------------: | :---------- | :---------- |
 | [Use Case 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_checkimage.drawio.png) | Check image format | FR1, FR5 |
 | [Use Case 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_sendprediction.drawio.png) | Sending prediction data and storing image data | FR3, FR21 |
-| [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio.png) | View search history and admin login | FR1, FR5 |
-| [Use Case 4](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_adminoperations.png) | Admin operations | FR1, FR5 |
+| [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio.png) | View search history and admin login | FR16, FR17, NFR16 |
+| [Use Case 4](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_adminoperations.png) | Admin operations | FR18, FR19, NFR17, NFR18 |
 
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| [Class Diagram](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png) | NFR3, FR5 |
+| [Image classifier Class Diagram](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png) | FR1, FR2 |
 
 ## Activity Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 | [Activity Diagram 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_storingdata.drawio.png) | Store Data | FR1-5, NFR2 |
-| [Activity Diagram 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_checkimage.drawio.png) | Check Image | ... |
+| [Activity Diagram 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_checkimage.drawio.png) | Check Image | FR1,  |
 
 # Software Artifacts
 The artifacts listed below help understand the features and functions of the Insect identification system.

@@ -45,6 +45,6 @@ To install node modules, go to the src/frontend and use the command
 To start React, use the command
 > npm start
 
-This start the application at localhost:3000/
+This will start the application at localhost:3000
 
 
