@@ -8,6 +8,8 @@ The objective of the document is to provide the list of requirements for assisti
 * [Traceability Links](#traceability-links)
 * [Software Artifacts](#software-artifacts)
 
+#Software Requirements
+
 ## Functional Requirements
 
 ### Frontend
@@ -97,11 +99,68 @@ The objective of the document is to provide the list of requirements for assisti
 ### Reliability Requirements
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR1 | The application shall be able to handle multiple concurrent requests at a time. |
-| NFR1 | The application shall have less downtime. |
-| NFR1 | The application shall be updated to a new version once every three months. |
-| NFR1 | The application shall be tested for bugs and debugged frequently. |
-| NFR1 | The application shall have user feedback portal, where the users recommend new features and bug fixes. |
+| NFR21 | The application shall be able to handle multiple concurrent requests at a time. |
+| NFR22 | The application shall have less downtime. |
+| NFR23 | The application shall be updated to a new version once every three months. |
+| NFR24 | The application shall be tested for bugs and debugged frequently. |
+| NFR25 | The application shall have a user feedback portal, where the users recommend new features and bug fixes. |
 
 
-##Change Management Plan
+#Change Management Plan
+
+A change management plan will be done for the implementation of the Insect Identification System. The plan will 
+help new users understand how the application works and how to utilize its 
+features. 
+
+## Training
+
+For training, the users will be initially given a demo of the application.
+After the demo, a Q&A session will be conducted to address users doubts.
+The following week the users will be getting the application to use.
+The users will be trained on how to upload the image to the React frontend and how to get the result of the prediction.
+The admin user will also be trained on how to access the search data from the database.
+The users will have an another Q&A session after they have used the application for a week. 
+
+## Integration
+
+The application is designed to be operational on Windows and Linux and can be used on browsers such as Firefox, Chrome and Edge. This makes the application easy to integrate with any ecosystem.
+The system administrators will be given instructions on how to deploy the Django backend and React frontend and how to set up the production environment. A Q&A session will be organized with the system administrators to make sure they don't have any problems.
+
+## Issue Resolution
+
+There will be user feedback portal, in which the user can report bugs and request features.
+The issues will in the feedback portal will be resolved in a new version of the application which will be released once every three months.
+If the user has any immediate issues he can email the system administrator for help. 
+
+# Traceability Links
+
+
+## Use Case Diagram Traceability
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :---------- | :---------- |
+| [Use Case 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_checkimage.drawio.png) | Check image format | FR1, FR5 |
+| [Use Case 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_sendprediction.drawio.png) | Sending prediction data and storing image data | FR3, FR21 |
+| [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio.png) | View search history and admin login | FR1, FR5 |
+| [Use Case 4](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_adminoperations.png) | Admin operations | FR1, FR5 |
+
+## Class Diagram Traceability
+| Artifact Name | Requirement ID |
+| :-------------: |:----------: |
+| [Class Diagram] https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png) | NFR3, FR5 |
+
+## Activity Diagram Traceability
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| [Activity Diagram 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_storingdata.drawio.png) | Store Data | FR1-5, NFR2 |
+| [Activity Diagram 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_checkimage.drawio.png) | Check Image | ... |
+
+# Software Artifacts
+The artifacts listed below help understand the features and functions of the Insect identification system.
+* [Use Case 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_checkimage.drawio.png)
+* [Use Case 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_sendprediction.drawio.png)
+* [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio.png)
+* [Use Case 4](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_adminoperations.png)
+* [Class Diagram] https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png)
+* [Activity Diagram 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_storingdata.drawio.png)
+* [Activity Diagram 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_checkimage.drawio.png)
+* [Windows Navigation Diagram](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/hci/Windowsnavigationdiagram.drawio.png)
