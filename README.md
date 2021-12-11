@@ -34,16 +34,16 @@ To setup the python environment go to src/backend/ and run the command
 ## Run Instructions
 
 To run the Django server, first create a superuser using the command in the src/backend/ directory
-python manage.py createsuperuser
+> python manage.py createsuperuser
 
 After creating the superuser, start the Django server using the command
-python manage.py runserver
+> python manage.py runserver
 
 To install node modules, go to the src/frontend and use the command
-npm install
+> npm install
 
 To start React, use the command
-npm start
+> npm start
 
 This start the application at localhost:3000/
 
