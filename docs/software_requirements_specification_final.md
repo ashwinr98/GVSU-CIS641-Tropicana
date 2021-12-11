@@ -153,7 +153,7 @@ The section provides the link between the artifacts created for the development 
 The artifacts listed below help understand the features and functions of the Insect identification system.
 * [Use Case 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_checkimage.drawio.png)
 * [Use Case 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_sendprediction.drawio.png)
-* [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio.png)
+* [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio_v2.png)
 * [Use Case 4](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_adminoperations.png)
 * [Class Diagram](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png)
 * [Activity Diagram 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_storingdata.drawio.png)

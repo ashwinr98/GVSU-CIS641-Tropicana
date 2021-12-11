@@ -1,6 +1,6 @@
 # Tropicana
 
-The Insect Identification System is an application to identify insects and pests. The application takes the input of a image from the user and returns the insect name and other information related to the bug. 
+The Insect Identification System is an application to identify insects and pests. The application takes the input of a image from the user and returns the insect name and the accuracy of the prediction. The frontend of the application is designed using React and the backend is designed using Django. 
 
 ## Team Members and Roles
 
