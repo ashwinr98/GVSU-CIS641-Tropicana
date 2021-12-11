@@ -20,15 +20,16 @@ An application to identify insects and pests. The application takes the input of
 ## [Documents](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/tree/master/docs)
 
 * [Project proposal](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/docs/proposal-template.md)
-* [Software requirements specifications]https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/docs/software_requirements_specification_final.md)
+* [Software requirements specifications](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/docs/software_requirements_specification_final.md)
 
 ## Prerequisites
 
 * Node.js
 * Python 3.7
 
-To setup the python environment go to src/backend/ and run the command 
-pip install requirements.txt
+To setup the python environment go to src/backend/ and run the command  
+
+> pip install requirements.txt
 
 ## Run Instructions
 
