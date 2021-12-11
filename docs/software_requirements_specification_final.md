@@ -112,7 +112,7 @@ For training, the users will be initially given a demo of the application.
 After the demo, a Q&A session will be conducted to address users doubts.
 The following week the users will be getting the application to use.
 The users will be trained on how to upload the image to the React frontend and how to get the result of the prediction.
-The admin user will also be trained on how to access the search data from the database.
+The admin user will also be trained on how to login to the admin interface and access the search data from the database.
 The users will have an another Q&A session after they have used the application for a week. 
 
 ## Integration
@@ -122,31 +122,32 @@ The system administrators will be given instructions on how to deploy the Django
 
 ## Issue Resolution
 
-There will be user feedback portal, in which the user can report bugs and request features.
-The issues will in the feedback portal will be resolved in a new version of the application which will be released once every three months.
-If the user has any immediate issues he can email the system administrator for help. 
+There will be a user feedback portal, in which the user can report bugs and request features.
+The issues in the feedback portal will be resolved in a new version of the application which will be released once every three months.
+If the user has any immediate issues  or doubts they can email the system administrator for help. 
 
 # Traceability Links
 
+The section provides the link between the artifacts created for the development of the project and the software requirements of the project.
 
 ## Use Case Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :---------- | :---------- |
 | [Use Case 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_checkimage.drawio.png) | Check image format | FR1, FR5 |
-| [Use Case 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_sendprediction.drawio.png) | Sending prediction data and storing image data | FR3, FR21 |
-| [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio.png) | View search history and admin login | FR16, FR17, NFR16 |
+| [Use Case 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_sendprediction.drawio.png) | Sending prediction data and storing image data | FR1, FR3, FR5, FR18, FR21, NFR17 |
+| [Use Case 3](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_login.drawio_v2.png) | View search history and admin login | FR16, FR17, NFR16-18 |
 | [Use Case 4](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/usec_adminoperations.png) | Admin operations | FR18, FR19, NFR17, NFR18 |
 
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| [Image classifier Class Diagram](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png) | FR1, FR2 |
+| [Image classifier class diagram](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/class_diagram.drawio.png) | FR1, FR2, FR6, FR21|
 
 ## Activity Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| [Activity Diagram 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_storingdata.drawio.png) | Store Data | FR1-5, NFR2 |
-| [Activity Diagram 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_checkimage.drawio.png) | Check Image | FR1,  |
+| [Activity Diagram 1](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_storingdata.drawio.png) | Store Data | FR1-5, FR21 |
+| [Activity Diagram 2](https://github.com/ashwinr98/GVSU-CIS641-Tropicana/blob/master/artifacts/functional-models/act_checkimage.drawio.png) | Check Image | FR1, FR4, FR5, FR7|
 
 # Software Artifacts
 The artifacts listed below help understand the features and functions of the Insect identification system.

@@ -1,6 +1,6 @@
 # Tropicana
 
-An application to identify insects and pests. The application takes the input of a image from the user and returns the insect name and other information related to the bug. 
+The Insect Identification System is an application to identify insects and pests. The application takes the input of a image from the user and returns the insect name and other information related to the bug. 
 
 ## Team Members and Roles
 
